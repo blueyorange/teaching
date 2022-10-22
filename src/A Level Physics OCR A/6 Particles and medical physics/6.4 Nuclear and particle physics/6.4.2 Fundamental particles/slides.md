@@ -1,0 +1,51 @@
+---
+marp: true
+theme: default
+math: mathjax
+paginate: true
+author: R. Johnson
+style: |
+  section.objectives > ol > li {
+      list-style-type: lower-alpha;
+  }
+---
+
+# A Level Physics OCR A
+## 6 Particles and medical physics
+### 6.4 Nuclear and particle physics
+
+---
+
+<!-- _class: objectives -->
+
+![bg left:30%](https://images.unsplash.com/photo-1492962827063-e5ea0d8c01f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2121&q=80)
+## 6.4.2 Fundamental particles
+
+
+1. particles and antiparticles; electron–positron, proton-antiproton, neutron-antineutron and neutrino-antineutrino
+
+2. particle and its corresponding antiparticle have same mass; electron and positron have opposite charge; proton and antiproton have opposite charge
+
+3. classification of hadrons; proton and neutron as examples of hadrons; all hadrons are subject to both the strong nuclear force and the weak nuclear force
+
+4. classification of leptons; electron and neutrino as examples of leptons; all leptons are subject to the weak nuclear force but not the strong nuclear force
+
+5. simple quark model of hadrons in terms of up, down and strange quarks and their respective anti-quarks
+
+6. quark model of the proton (uud) and the neutron (udd)
+
+7. charges of the up (u), down (d), strange (s), anti-up (u), anti-down (d) and the anti-strange (s) quarks as fractions of the elementary charge e
+8. beta-minus (β-) decay; beta-plus (β+) decay
+
+9. β- decay in terms of a quark model
+
+10. β+ decay in terms of a quark model
+
+11. balancing of quark transformation equations in
+terms of charge
+
+12. decay of particles in terms of the quark model.
+
+
+
+---

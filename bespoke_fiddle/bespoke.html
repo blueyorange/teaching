@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <article id="presentation">
+        <section>
+            <h1>Slide 1</h1>
+            <ul>
+                <li>A: this option</li>
+                <li>B: this option</li>
+            </ul>
+        </section>
+        <section id="3" data-theme="default" style="--theme:default;">
+            <h2>1.1.2 Implementing</h2>
+            <p>(a) how to use a wide range of practical apparatus and techniques correctly</p>
+            <p>(b) appropriate units for measurements</p>
+            <p>(c) presenting observations and data in an appropriate format.</p>
+          </section>
+        <section>Slide 3</section>
+    </article>
+    <script type="module">
+        import bespoke from 'https://cdn.skypack.dev/bespoke';
+        import bespokeThemeCube from 'https://cdn.skypack.dev/bespoke-theme-cube';
+        import bespokeKeys from 'https://cdn.skypack.dev/bespoke-keys';
+        bespoke.from('#presentation', [bespokeKeys(), bespokeThemeCube()]);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+---
+marp: true
+theme: default
+math: mathjax
+paginate: true
+author: R. Johnson
+style: |
+  section.objectives > ol > li {
+      list-style-type: lower-alpha;
+  }
+---
+
+# A Level Physics OCR A
+## 2 Foundations of physics
+### 2.2 Making measurements and analysing data
+
+---
+
+<!-- _class: objectives -->
+
+![bg left:30%](https://images.unsplash.com/photo-1492962827063-e5ea0d8c01f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2121&q=80)
+## 2.2.1 Measurements and uncertainties
+
+
+1. systematic errors (including zero errors) and random errors in measurements
+
+2. precision and accuracy
+
+3. absolute and percentage uncertainties when data are combined by addition, subtraction, multiplication, division and raising to powers
+
+4. graphical treatment of errors and uncertainties; line of best fit; worst line; absolute and percentage uncertainties; percentage difference
+
+
+
+---
