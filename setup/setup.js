@@ -101,7 +101,7 @@ function createTextFile(key, content) {
   
   ---`;
 
-  const pathToFile = path.join(key, "slides.md");
+  const pathToFile = path.join(key, `${subtopic}_slides.md`);
   fs.writeFileSync(pathToFile, str);
 }
 

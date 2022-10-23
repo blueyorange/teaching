@@ -1,5 +1,0 @@
----
-theme: gaia
----
-# Hey hey!
-
