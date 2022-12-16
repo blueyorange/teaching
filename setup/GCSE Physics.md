@@ -623,7 +623,7 @@ State and apply these rules:
 - $\frac{V_p}{V_s} = \frac{N_p}{N_s}$
 - $V_sI_s = V_pI_p$
 
-# Space Physics
+# 8 Space Physics
 
 ## 8.1 Solar system; stability of orbital motions; satellites (physics only)
 
@@ -647,7 +647,7 @@ State and apply these rules:
 - (HT only) for circular orbits, the force of gravity can lead to changing velocity but unchanged speed
 - (HT only) for a stable orbit, the radius must change if the speed changes.
 
-### 4.8.2 Red shift
+### 8.1.4 Red shift
 
 - explain qualitatively the red-shift of light from galaxies that are receding
 - that the change of each galaxy’s speed with distance is evidence of an expanding universe

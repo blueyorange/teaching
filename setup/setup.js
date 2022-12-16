@@ -101,12 +101,12 @@ function createTextFile(key, content) {
   
   ---`;
 
-  const pathToFile = path.join(key, `${subtopic}_slides.md`);
+  const pathToFile = path.join(key, `${topic}_slides.md`);
   fs.writeFileSync(pathToFile, str);
 }
 
-let text = fs.readFileSync("OCRAOutcomesMod.md", "utf-8");
+let text = fs.readFileSync("GCSE Physics.md", "utf-8");
 const obj = mdToObj(text);
 const flatObj = flattenObj(obj);
-process.chdir("../src");
+process.chdir("../src/GCSE Physics AQA");
 objToDir(flatObj, createTextFile);
