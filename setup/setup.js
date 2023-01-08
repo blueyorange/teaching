@@ -72,7 +72,7 @@ function objToDir(obj, func) {
 }
 
 function createTextFile(key, content) {
-  const [course, module, topic, subtopic] = key.split("/");
+  const [course, module, topic] = key.split("/");
   console.log(key);
   const str = dedent`
   ---
@@ -96,17 +96,18 @@ function createTextFile(key, content) {
   <!-- _class: objectives -->
 
   ![bg left:30%](https://images.unsplash.com/photo-1492962827063-e5ea0d8c01f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2121&q=80)
-  ## ${subtopic}
+  ## ${topic}
   ${content}
   
   ---`;
 
-  const pathToFile = path.join(key, `${topic}_slides.md`);
+  const pathToFile = path.join(course, module, `${topic}.md`);
   fs.writeFileSync(pathToFile, str);
 }
 
-let text = fs.readFileSync("GCSE Physics.md", "utf-8");
+let text = fs.readFileSync("./setup/GCSE Physics.md", "utf-8");
 const obj = mdToObj(text);
 const flatObj = flattenObj(obj);
-process.chdir("../src/GCSE Physics AQA");
+process.chdir("./presentations/GCSE Physics AQA");
 objToDir(flatObj, createTextFile);
+// objToDir(flatObj);

@@ -197,7 +197,7 @@ State and apply these rules:
 
 ## 3.3 Particle model and pressure
 
-### 3.3.1 Particle motion in gases
+### 3.3.1 Particle motion in gases
 
 - explain how the motion of the molecules in a gas is related to both its temperature and its pressure
 - explain qualitatively the relation between the temperature of a gas and its pressure at constant volume
@@ -223,7 +223,7 @@ State and apply these rules:
 - describe the basic structure of an atom
 - state that the nuclear radius is approximately 1/10 000 of the radius of an atom
 - state that electrons are arranged at different distances from the nucleus
-- describe how absorption and emission of electronmagnetic radiation causes changes to electron energies
+- describe how absorption and emission of electromagnetic radiation causes changes to electron energies
 
 ### 4.1.2 Mass number, atomic number and isotopes
 
@@ -237,6 +237,8 @@ State and apply these rules:
 - Describe the development of the model of the atom from tiny indivisible spheres to the plum pudding model, then the Rutherford nuclear and the Bohr model
 - Explain why the new evidence from the scattering experiment led to a change in the atomic model.
 - Compare the plum pudding and the nuclear model of the atom.
+
+## 4.2 Atoms and nuclear radiation
 
 ### 4.2.1 Radioactive decay and nuclear radiation
 
@@ -647,7 +649,9 @@ State and apply these rules:
 - (HT only) for circular orbits, the force of gravity can lead to changing velocity but unchanged speed
 - (HT only) for a stable orbit, the radius must change if the speed changes.
 
-### 8.1.4 Red shift
+## 8.2 Red shift
+
+### 8.2.1 Red shift
 
 - explain qualitatively the red-shift of light from galaxies that are receding
 - that the change of each galaxy’s speed with distance is evidence of an expanding universe
