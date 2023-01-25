@@ -640,8 +640,8 @@ State and apply these rules:
 ### 8.1.2 The life cycle of a star
 
 - describe the life cycle of a star:
-- the size of the Sun
-- much more massive than the Sun
+  - the size of the Sun
+  - much more massive than the Sun
 
 ### 8.1.3 Orbital motion
 
