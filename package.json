@@ -2,7 +2,7 @@
   "name": "teaching",
   "version": "1.0.0",
   "description": "",
-  "start": "marp -s",
+  "start": "marp --s",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "marp": "marp",
