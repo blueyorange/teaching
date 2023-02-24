@@ -5,8 +5,7 @@
   "start": "marp --s",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "marp": "marp",
-    "start": "marp --s",
+    "start": "marp --s --html true",
     "build": "marp -I ./src -o ./dist"
   },
   "author": "",
@@ -16,7 +15,13 @@
   },
   "marp": {
     "inputDir": "./src",
-    "output": "./dist"
+    "output": "./dist",
+    "options": {
+      "html": "true",
+      "bespoke": {
+        "progress": "true"
+      }
+    }
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^2.2.2"
