@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Tilt Warp";
-  src: url("https://fonts.googleapis.com/css?family=Tilt_Warp")
+  src: url("/themes/fonts/Tilt_Warp/TiltWarp-Regular-VariableFont_XROT\,YROT.ttf")
     format("truetype");
 }
 
@@ -29,10 +29,10 @@ h3 {
 }
 
 :root h1 strong {
-  color: var(--dark-blue);
+  color: var(--text-light);
   text-decoration: underline;
 }
 
 :root h2 strong {
-  color: var(--dark-blue);
+  color: var(--accent);
 }
