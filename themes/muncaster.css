@@ -29,8 +29,7 @@ h3 {
 }
 
 :root h1 strong {
-  color: var(--text-light);
-  text-decoration: underline;
+  color: var(--accent);
 }
 
 :root h2 strong {

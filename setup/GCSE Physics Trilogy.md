@@ -394,7 +394,7 @@ State and apply these rules:
 - state a typical value for the speed of sound in air (330 m/s)
 - use the equation $s = vt$
 - calculate average speed for non-uniform motion
-- _explain qualitatively, with examples, that motion in a circle involves constant speed but changing velocity_
+- **explain qualitatively, with examples, that motion in a circle involves constant speed but changing velocity**
 
 ### 5.6.1.4 Distance-time graphs
 
@@ -442,7 +442,7 @@ State and apply these rules:
 - stopping distance = thinking distance + braking distance
 - estimate how the distance for a vehicle to make an emergency stop varies over a range of speeds typical for that vehicle
 
-#### 5.6.3.2 Reaction time
+#### 5.6.3.2 Reaction time
 
 - explain methods used to measure human reaction times and recall typical results (0.2 to 0.9 s)
 - interpret and evaluate measurements from simple methods to measure the different reaction times of students

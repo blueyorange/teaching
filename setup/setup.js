@@ -81,10 +81,6 @@ function createTextFile(key, content) {
   math: mathjax
   paginate: true
   author: R. Johnson
-  style: |
-    section.objectives > ol > li {
-        list-style-type: lower-alpha;
-    }
   ---
   
   # ${course}
@@ -105,9 +101,13 @@ function createTextFile(key, content) {
   fs.writeFileSync(pathToFile, str);
 }
 
-let text = fs.readFileSync("./setup/GCSE Physics.md", "utf-8");
+let text = fs.readFileSync("GCSE Physics.md", "utf-8");
 const obj = mdToObj(text);
 const flatObj = flattenObj(obj);
-process.chdir("./presentations/GCSE Physics AQA");
-objToDir(flatObj, createTextFile);
+fs.writeFileSync("GCSE_data.json", JSON.stringify(flatObj), {
+  encoding: "utf-8",
+});
+// const flatObj = flattenObj(obj);
+// process.chdir("./presentations/GCSE Physics AQA");
+// objToDir(flatObj, createTextFile);
 // objToDir(flatObj);
