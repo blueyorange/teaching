@@ -15,12 +15,9 @@
   },
   "marp": {
     "inputDir": "./src",
-    "themeSet": "./themes",
     "output": "./dist",
     "options": {
       "html": "true",
-      "themeSet": "./themes",
-      "theme" : "./themes/muncaster",
       "bespoke": {
         "progress": "true"
       }
