@@ -1,15 +1,31 @@
 /* @theme space */
 
-@import "default";
+/* @import "default"; */
 
-@import url("https://fonts.googleapis.com/css2?family=News+Cycle&display=swap");
-
-section {
-  background-color: black;
-  color: yellow;
-  font-family: "News Cycle", sans-serif;
+:root {
+  --bg: white;
+  --bg-accent: rgb(205, 215, 214);
+  --accent: rgb(248, 112, 96);
+  --text: rgb(39, 45, 45);
+  --text-light: rgb(184, 197, 214);
+  --header-bg: rgb(179, 163, 148);
+  --dark-blue: rgb(16, 37, 66);
+  font-family: "Roboto", "Segoe UI", "Liberation Sans", "Helvetica", "Arial",
+    sans-serif;
+  background-color: var(--bg-accent);
 }
 
-h1 {
-  color: cyan;
+:root h1,
+h2,
+h3 {
+  font-family: "Roboto", "Segoe UI", "Liberation Sans", "Helvetica", "Arial",
+    sans-serif;
+}
+
+:root h1 strong {
+  color: var(--accent);
+}
+
+:root h2 strong {
+  color: var(--accent);
 }

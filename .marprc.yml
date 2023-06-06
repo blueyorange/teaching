@@ -1,0 +1,14 @@
+allowLocalFiles: true
+author: Russell Johnson
+bespoke:
+  osc: true
+  progress: true
+  transition: true
+html: true
+image: false
+images: false
+inputDir: ./src
+output: ./public
+pdf: false
+themeSet: ./themes/
+theme: darumadrop
