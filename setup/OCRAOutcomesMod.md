@@ -77,7 +77,7 @@
 4. use of a stopwatch or light gates for timing
 
 5. use of calipers and micrometers for small
-distances, using digital or vernier scales
+   distances, using digital or vernier scales
 
 6. correctly constructing circuits from circuit diagrams using DC power supplies, cells, and a range of circuit components, including those where polarity is important
 
@@ -562,7 +562,7 @@ distances, using digital or vernier scales
 1. the radian as a measure of angle
 
 2. period and frequency of an object in circular
-motion
+   motion
 
 3. angular velocity $\omega$, $\omega = \frac{2\pi}{T}$ or $\omega = w\pi f$
 
@@ -602,9 +602,8 @@ motion
 
 1. free and forced oscillations
 
-2. the effects of damping on an oscillatory
+2. the effects of damping on an oscillatory system; observe forced and damped oscillations for a range of systems
 
-system; observe forced and damped oscillations for a range of systems
 3. resonance; natural frequency
 
 4. amplitude-driving frequency graphs for forced oscillators
@@ -638,7 +637,7 @@ system; observe forced and damped oscillations for a range of systems
 1. Kepler’s three laws of planetary motion
 
 2. the centripetal force on a planet is provided by
-the gravitational force between it and the Sun
+   the gravitational force between it and the Sun
 
 3. the equation $T^2=(\frac{4\pi^2}{GM})r^3$
 
@@ -775,7 +774,7 @@ the gravitational force between it and the Sun
 1. electric fields are due to charges
 
 2. modelling a uniformly charged sphere as a point
-charge at its centre
+   charge at its centre
 
 3. electric field lines to map electric fields
 
@@ -881,7 +880,7 @@ charge at its centre
 10. β+ decay in terms of a quark model
 
 11. balancing of quark transformation equations in
-terms of charge
+    terms of charge
 
 12. decay of particles in terms of the quark model.
 
@@ -908,7 +907,7 @@ terms of charge
 1. Einstein’s mass–energy equation; $E=mc^2$
 
 2. energy released (or absorbed) in simple nuclear
-reactions
+   reactions
 
 3. creation and annihilation of particle–antiparticle pairs
 
@@ -921,7 +920,7 @@ reactions
 7. induced nuclear fission; chain reaction
 
 8. basic structure of a fission reactor; components –
-fuel rods, control rods and moderator
+   fuel rods, control rods and moderator
 
 9. environmental impact of nuclear waste
 
@@ -934,7 +933,7 @@ fuel rods, control rods and moderator
 #### 6.5.1 Using X-rays
 
 1. basic structure of an X-ray tube;
-components – heater (cathode), anode, target metal and high voltage supply
+   components – heater (cathode), anode, target metal and high voltage supply
 
 2. production of X-ray photons from an X-ray tube
 
