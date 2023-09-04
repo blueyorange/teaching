@@ -144,7 +144,7 @@ State and apply these rules:
 - Describe how step-up and step-down transformers are used in the National Grid
 - Explain why the National Grid is an efficient way to transfer energy
 
-## 2.5 Static eletricity
+## 2.5 Static electricity
 
 ### 2.5.1 Static charge
 
@@ -343,7 +343,7 @@ State and apply these rules:
 
 - Identify situations where work is done (a force moves an object through a displacement).
 - Use the equation _work done = force x distance_ $W=Fs$
-- The joule as the unnit of work done (1 newton-metre)
+- The joule as the unit of work done (1 newton-metre)
 - State that work done against friction can lead to a rise in temperature
 
 ## 5.3 Forces and elasticity
@@ -406,7 +406,7 @@ State and apply these rules:
 
 - Calculate average acceleration using $a=\frac{\Delta v}{\Delta t}$
 - Deceleration is slowing down
-- Estimate the mangnitude of everyday accelerations
+- Estimate the magnitude of everyday accelerations
 - Calculate acceleration from the gradient of a velocity-time graph
 - (HT) Calculate distance or displacement from the enclosed area of a velocity-time graph
 - Use the equation for uniform acceleration $v^2 = u^2 + 2as$
@@ -511,7 +511,7 @@ State and apply these rules:
 ### 6.1.5 Waves for detection and exploration
 
 - explain how scans using waves work e.g. ultrasound, echo sounding
-- explain how seismic waves give clues about the interior struture of the Earth
+- explain how seismic waves give clues about the interior structure of the Earth
 
 ## 6.2 Electromagnetic waves
 
@@ -543,7 +543,7 @@ State and apply these rules:
 ### 6.2.5 Lenses (physics only)
 
 - keywords: **focal length, convex, concave, principal focus, real image, virtual image**
-- draw ray diagrams for ancave and convex lenses
+- draw ray diagrams for concave and convex lenses
 - calculate magnification
 
 ### 6.2.6 Visible light (physics only)
@@ -553,7 +553,7 @@ State and apply these rules:
 - colour filters
 - transparent/translucent
 - explain why an opaque object has colour
-- explain the effect of viewing objects throuh filters or the effect on light of passing through filters
+- explain the effect of viewing objects through filters or the effect on light of passing through filters
 
 ## 6.3 Black body radiation (physics only)
 

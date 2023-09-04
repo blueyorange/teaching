@@ -103,11 +103,8 @@ function createTextFile(key, content) {
 
 let text = fs.readFileSync("GCSE Physics.md", "utf-8");
 const obj = mdToObj(text);
-const flatObj = flattenObj(obj);
-fs.writeFileSync("GCSE_data.json", JSON.stringify(flatObj), {
+console.log(obj);
+// const flatObj = flattenObj(obj);
+fs.writeFileSync("GCSE_data.json", JSON.stringify(obj), {
   encoding: "utf-8",
 });
-// const flatObj = flattenObj(obj);
-// process.chdir("./presentations/GCSE Physics AQA");
-// objToDir(flatObj, createTextFile);
-// objToDir(flatObj);
