@@ -7,8 +7,8 @@ bespoke:
 html: true
 image: false
 images: false
-inputDir: ./src
+inputDir: "./src copy"
 output: ./public
 pdf: false
 themeSet: ./themes/
-theme: darumadrop
+theme: uncover
