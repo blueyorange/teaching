@@ -7,8 +7,7 @@ bespoke:
 html: true
 image: false
 images: false
-inputDir: "./src copy"
-output: ./public
+inputDir: src
+output: dist
 pdf: false
-themeSet: ./themes/
-theme: uncover
+themeSet: themes
