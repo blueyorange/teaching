@@ -21,6 +21,14 @@ theme: uncover
 - :triangular_ruler: set square
 - 🖩 calculator
 - :computer: laptop
+- protractor
+
+---
+
+# Equipment: A Level
+
+- :card_index_dividers: folder with **dividers**
+- :straight_ruler: 30cm ruler for lines of best fit
 
 ---
 
@@ -79,6 +87,8 @@ theme: uncover
 - :white_check_mark: bring them!
 - :white_check_mark: charge them overnight :crescent_moon:
 - :white_check_mark: **relevant** tabs/windows **ONLY**
+- :x: get them out without teacher permission
+- :x: use them every lesson because of EAA
 
 :exclamation: There is **zero-tolerance** for inappropriate items being open on your laptop
 
@@ -123,4 +133,13 @@ The purpose of prep/homework should be **practice** and **consolidation**.
 - :white_check_mark: Submit
 - :white_check_mark: Working in **exercise books** if necessary
 - :x: leave until last minute
-  Transver
+
+---
+
+# <!-- fit--> :+1: :smiley:
+
+---
+
+<!-- _class: none -->
+
+![](/images/forgetting_curve.png)
