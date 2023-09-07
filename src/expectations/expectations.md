@@ -13,14 +13,14 @@ theme: uncover
 
 # Equipment
 
-- :book: exercise book
+- :blue_book: exercise book
 - :book: textbook
 - :pen: pen
-- :pencil: pencil
+- :pencil2: pencil & eraser
 - :straight_ruler: ruler
-- :triangular_ruler: set square
 - 🖩 calculator
 - :computer: laptop
+- :triangular_ruler: set square
 - protractor
 
 ---
@@ -72,11 +72,11 @@ theme: uncover
 
 ---
 
-# Teacher Talking Time :teacher:
+# Teacher Talking Time (TTT) :teacher:
 
 - :white_check_mark: listen :ear:
 - :white_check_mark: raise hand :hand:
-- :white_check_mark: take notes :memo:
+- :white_check_mark: take notes :blue_book:
 - :white_check_mark: answer questions :question:
 - :x: toilet :toilet:
 
@@ -87,6 +87,7 @@ theme: uncover
 - :white_check_mark: bring them!
 - :white_check_mark: charge them overnight :crescent_moon:
 - :white_check_mark: **relevant** tabs/windows **ONLY**
+- :white_check_mark: close screen during TTT
 - :x: get them out without teacher permission
 - :x: use them every lesson because of EAA
 
@@ -137,9 +138,3 @@ The purpose of prep/homework should be **practice** and **consolidation**.
 ---
 
 # <!-- fit--> :+1: :smiley:
-
----
-
-<!-- _class: none -->
-
-![](/images/forgetting_curve.png)
