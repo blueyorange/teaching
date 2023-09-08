@@ -9,7 +9,7 @@ author: R. Johnson
 | Quantity | Symbol | Unit | Unit symbol | Equations | SI Base units |
 | -------- | ------ | ---- | ----------- | --------- | ------------- |
 |          | Q      |
-| Current  |        |      |             | Amps      |
+| Current  |        |      | A           |
 |          |        | Volt |
 |          | R      |
 | Power    |
