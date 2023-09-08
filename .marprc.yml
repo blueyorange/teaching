@@ -2,12 +2,9 @@ allowLocalFiles: true
 author: Russell Johnson
 bespoke:
   osc: true
-  progress: true
   transition: true
 html: true
 image: false
 images: false
-inputDir: src
-output: dist
 pdf: false
 themeSet: themes

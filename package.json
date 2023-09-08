@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "marp --s",
-    "build": "marp"
+    "start": "marp --s --inputDir ./src",
+    "build": "marp --inputDir ./src --output public"
   },
   "author": "",
   "license": "ISC",
