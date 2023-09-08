@@ -73,3 +73,19 @@ style: |
 - Eason Edward
 - Freddie Franky
 - Naz George Ash
+
+---
+
+<!-- _class: two-column -->
+
+# 11P1 Room 6,7
+
+- **TEACHER DESK**
+- Nat Leo Charmaine
+- Sophia Harriet Oliver
+- Aydin Ella Kirsty
+- Cole Lev Anna James
+- Amelia Charles Lois
+- Esther Evie Jake
+- Grace Max Tin Lam
+- Henry Daniel Lulu

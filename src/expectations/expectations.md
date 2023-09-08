@@ -1,6 +1,7 @@
 ---
 marp: true
 theme: uncover
+transition: fade
 ---
 
 <!-- class: invert -->
