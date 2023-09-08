@@ -42,15 +42,23 @@ author: R. Johnson
 
 Always record data in a table if appropriate.
 
-|
+What is good about his table? What could be better?
+
+| Potential Difference | Current / A |
+| -------------------- | ----------- |
+| 1.5 V                | 0.1         |
+| 3.0 V                | 0.22        |
+| 4.5 V                | 0.29        |
+
+...
 
 ---
 
 # Practical task 1: **Confirming V=IR**
 
 1. Set up a circuit to measure the current through a resistor with varying potential difference (voltage). :battery:
-2. Draw the circuit diagram.
-3. Draw and complete a suitable table.
+2. Draw the circuit diagram. :memo:
+3. Draw and complete a suitable table for p.d. and current. :memo:
 4. Plot a graph of your results. :chart_with_upwards_trend:
 5. Draw a **line of best fit**. :straight_ruler:
 6. Calculate the gradient.
@@ -66,6 +74,14 @@ Always record data in a table if appropriate.
 3. Use a voltmeter to measure the voltage across different combinations of resistors.
    :question: Can you calculate the resistance of each resistor, and the combinations?
    :question: How is the voltage being divided? Why?
+
+---
+
+# Plenary
+
+Think about the metaphors you came up with at the start of the lesson
+
+Would you adjust them, in light of what you have learned?
 
 ---
 
