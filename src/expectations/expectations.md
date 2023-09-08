@@ -19,7 +19,7 @@ transition: fade
 - :pen: pen
 - :pencil2: pencil & eraser
 - :straight_ruler: ruler
-- 🖩 calculator
+- &#x1F5A9; calculator
 - :computer: laptop
 - :triangular_ruler: set square
 - protractor
