@@ -11,8 +11,9 @@ style: |
 # :orange_book: Do It Now! :stopwatch:
 
 1. what is $3^2$?
-2. write $3^2$ in a different way.
-3. write $3^2$ in **words**.
+2. write $3^2$ in **words**
+3. what is $2^3$? In **words**?
+4. &#x1F5A9; What is 4^6?
 
 ---
 
@@ -38,7 +39,7 @@ style: |
 - :teacher: teacher
 - :thinking: think
 - :couple: discuss with partner
-- :speaking_head: tell your partner
+- :speaking_head: repeat
 - :ear: listen
 - :question: question
 
@@ -48,10 +49,10 @@ style: |
 
 ## Learning Objectives :eye:
 
-- recall how to use index notation
-- multiply and divide numbers with indices
-- raise a power to a further power
-- using the zero index
+- recall how to use **index notation**
+- **multiply** and **divide numbers** with indices
+- using the **zero index**
+- raise a **power** to a further power
 
 :teacher: register
 
@@ -61,6 +62,7 @@ style: |
 
 $$2^5 = 2 \times 2 \times 2 \times 2 \times 2$$
 
+_two to the power five_
 2 is called the **base**
 5 is the **index**
 
@@ -72,7 +74,7 @@ $$2^5 = 2 \times 2 \times 2 \times 2 \times 2$$
 
 $$2^2 \times 2^3 = 2^5$$
 :thinking: what is the **rule**?
-:speaking_head: tell your partner!
+:couple: tell your partner!
 :couple: :memo: can you **show it**?
 
 ---
@@ -118,11 +120,11 @@ $$(a^m)^n = a^{m \times n}$$
 
 ## Example
 
-:question: simplify $3^3 \times 3^3$
+:question: evaluate $3^3 \times 3^3$
 
 You write
 
-:memo: $3^6$
+:memo: $3^6 = 729$
 write your answer **big**
 
 ---
