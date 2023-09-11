@@ -12,8 +12,9 @@ style: |
 
 1. what is $3^2$?
 2. write $3^2$ in **words**
-3. what is $2^3$? In **words**?
-4. &#x1F5A9; What is 4^6?
+3. 1,4,9,16,... what's next?
+4. What is $2^3$?
+5. &#x1F5A9; What is $4^6$?
 
 ---
 
@@ -62,7 +63,7 @@ style: |
 
 $$2^5 = 2 \times 2 \times 2 \times 2 \times 2$$
 
-_two to the power five_
+:speaking_head: _two to the power five_
 2 is called the **base**
 5 is the **index**
 

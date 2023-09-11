@@ -22,9 +22,14 @@ author: R. Johnson
 
 - review electrical quantities and units
 - use metaphors to aid understanding
+- conventional and electron current
+
+## Practical
+
 - connect an **ammeter** to a circuit
 - use a **multimeter**
-- conventional and electron current
+- record data in tables
+- plot graphs
 
 ---
 

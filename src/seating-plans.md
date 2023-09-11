@@ -89,3 +89,36 @@ style: |
 - Esther Evie Jake
 - Grace Max Tin Lam
 - Henry Daniel Lulu
+
+---
+
+<!-- _class: three-column -->
+
+# 11P1 Room 5
+
+- Nat Leo Charmaine
+- **TEACHER DESK**
+- Sophia Harriet Oliver
+- Aydin Ella Kirsty
+- Grace Max Tin Lam
+- Cole Lev Anna James
+- Amelia Charles Lois
+- Esther Evie Jake
+- Henry Daniel Lulu
+
+---
+
+<!-- _class: three-column -->
+
+# 8m2 Room C1 FRONT
+
+- Seth Ruby Leon
+- Fin Jude Molly
+- Cooper Tamara Harry
+- Jessica Zara Edward
+- Alvin Darcey Maddie
+- Elliana Clem Thomas
+- Hugo Charlie Park
+- Abigail Georgia Niamh
+
+# BACK
