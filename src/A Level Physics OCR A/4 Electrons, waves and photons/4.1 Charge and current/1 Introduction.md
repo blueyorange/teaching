@@ -89,19 +89,3 @@ Think about the metaphors you came up with at the start of the lesson
 Would you adjust them, in light of what you have learned?
 
 ---
-
-1. electric current as rate of flow of charge; $I=\frac{\Delta Q}{\Delta t}$
-
-2. the coulomb as the unit of charge
-
-3. the elementary charge e equals $1.6 × 10^{–19}$ C
-
-4. net charge on a particle or an object is quantised and a multiple of e
-
-5. current as the movement of electrons in metals and movement of ions in electrolytes
-
-6. conventional current and electron flow
-
-7. Kirchhoff’s first law; conservation of charge.
-
----
