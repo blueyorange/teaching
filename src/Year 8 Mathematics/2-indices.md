@@ -131,4 +131,17 @@ $$
 
 # Investigation: powers of two
 
-All numbers from one to 32 can be formed from powers of two
+All numbers from one to 32 can be formed from the sum of the first five powers of two, **using them only once**.
+
+| number | 16  | 8   | 4   | 2   | 1   |
+| ------ | --- | --- | --- | --- | --- |
+| 1      |     |     |     |     | ✅  |
+| 2      |     |     |     | ✅  |     |
+| 3      |     |     |     | ✅  | ✅  |
+| 4      |     |     | ✅  |     |     |
+| 5      |     |     | ✅  |     | ✅  |
+
+---
+
+| 256 | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
