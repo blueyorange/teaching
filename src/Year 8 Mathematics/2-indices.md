@@ -97,7 +97,7 @@ $$
 
 ## Exercise 1
 
-#### :orange_book: Write as a number in index form e.g. $(3^2)^3 = 3^9$
+#### :orange_book: Write as a number in index form e.g. $(3^2)^3 = 3^6$
 
 - $\left(3^2\right)^4$
 - $\left(2^4\right)^2$
@@ -123,15 +123,25 @@ $$
 - $\left(8^2\right)^2 \times 8^2 = 8^6$
 - $\left(7^3\right)^4 \div 7^7 = 7^5$
 - $\left(3^5\right)^2 \times\left(3^4\right)^6 = 3^{34}$
-- $\left(5^4\right)^8 \times 5 = 8^{33}$
+- $\left(5^4\right)^8 \times 5 = 5^{33}$
 
 **What next?** Choose more practice **or** investigation!
 
 ---
 
-# Investigation: powers of two
+# Investigation: power sums
 
-All numbers from one to 32 can be formed from the sum of the first five powers of two, **using them only once**.
+All numbers from one to 31 inclusive can be formed from the sum of the first five powers of two, **using them only once**.
+
+The first five powers of two are 1,2,4,8 and 16.
+
+**Examples**: 6 = 4+2; 9 = 8+1, 31 = 16+8+4+2+1
+
+Can you find the rest?
+
+---
+
+## Copy and complete the table!
 
 | number | 16  | 8   | 4   | 2   | 1   |
 | ------ | --- | --- | --- | --- | --- |
@@ -141,7 +151,13 @@ All numbers from one to 32 can be formed from the sum of the first five powers o
 | 4      |     |     | ✅  |     |     |
 | 5      |     |     | ✅  |     | ✅  |
 
+What do you notice? What has this got to do with computers?
+
 ---
 
-| 256 | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+# Diagnostic Question
+
+What is $\frac{3^{-2}}{3^3}$?
+
+A. $3^5$
+B.

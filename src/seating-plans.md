@@ -122,3 +122,18 @@ style: |
 - Abigail Georgia Niamh
 
 # BACK
+
+---
+
+<!-- _class: three-column -->
+
+# 8M2 Room 15
+
+- Seth Ruby Leon
+- Fin Jude Molly
+- Cooper Tamara Harry
+- Jessica Zara Edward
+- Alvin Darcey Maddie
+- Elliana Clem Thomas
+- Hugo Charlie Park
+- Abigail Georgia Niamh
