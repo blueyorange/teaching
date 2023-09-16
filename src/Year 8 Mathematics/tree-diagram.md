@@ -2,6 +2,9 @@
 marp: true
 theme: uncover
 style: |
+  :root {
+    --connector: 5px solid #ccc;
+  }
   section.tree ul {
     position: relative;
     padding: 1em 0;
@@ -28,14 +31,14 @@ style: |
     position: absolute;
     top: 0;
     right: 50%;
-    border-top: 1px solid #ccc;
+    border-top: var(--connector);
     width: 50%;
     height: 1em;
   }
   section.tree li::after {
     right: auto;
     left: 50%;
-    border-left: 1px solid #ccc;
+    border-left: var(--connector);
   }
   section.tree li:only-child::after, section.tree li:only-child::before {
     display: none;
@@ -47,7 +50,7 @@ style: |
     border: 0 none;
   }
   section.tree li:last-child::before {
-    border-right: 1px solid #ccc;
+    border-right: var(--connector);
     border-radius: 0 5px 0 0;
   }
   section.tree li:first-child::after {
@@ -59,7 +62,7 @@ style: |
     position: absolute;
     top: 0;
     left: 50%;
-    border-left: 1px solid #ccc;
+    border-left: var(--connector);
     width: 0;
     height: 1em;
   }
@@ -73,6 +76,7 @@ style: |
   - 6
     - 3
     - 2
+    - 1
   - 4
     - 2
     - 2
