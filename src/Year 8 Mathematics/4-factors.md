@@ -173,6 +173,13 @@ Written out, it would have 24,862,048 digits! :exploding_head:
 
 ---
 
+# Why are prime numbers important?
+
+- primes make up all numbers (you shouldn't trust them :laughing:)
+- they are very important in **encryption** (why you can go shopping :shopping: on the internet safely)
+
+---
+
 <!-- _class: multi-choice -->
 
 # Plenary
@@ -185,5 +192,7 @@ What is the highest common factor (HCF) of 24 and 30?
 - 8
 
 ---
+
+[extra reading](https://blog.sciencemuseum.org.uk/the-magic-of-the-primes/)
 
 # <!--fit--> :+1:
