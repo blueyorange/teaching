@@ -110,7 +110,7 @@ style: |
 
 <!-- _class: three-column -->
 
-# 8m2 Room C1 FRONT
+# 8M2 Room C1 FRONT
 
 - Seth Ruby Leon
 - Fin Jude Molly
