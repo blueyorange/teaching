@@ -26,6 +26,8 @@ class: invert
 
 ## 4.1.2 Mean drift velocity
 
+### Learning Objectives
+
 1. mean drift velocity of charge carriers
 
 2. $I = Anev$, where n is the number density of charge carriers
