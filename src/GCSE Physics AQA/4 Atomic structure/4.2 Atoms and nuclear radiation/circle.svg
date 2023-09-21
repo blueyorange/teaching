@@ -1,0 +1,6 @@
+<svg width="200" height="200">
+  <circle cx="95" cy="95" r="10" stroke="black" stroke-width="1" fill="green" />
+  <circle cx="105" cy="95" r="10" stroke="black" stroke-width="1" fill="red" />
+  <circle cx="105" cy="105" r="10" stroke="black"  stroke-width="1" fill="green" />
+  <circle cx="95" cy="105" r="10" stroke="black"  stroke-width="1" fill="red" />
+</svg>
