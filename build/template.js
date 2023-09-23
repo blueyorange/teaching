@@ -1,4 +1,4 @@
-export default (content) =>
+export default ({html, css}) =>
   `<!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -14,6 +14,9 @@ export default (content) =>
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
     <link rel="stylesheet" href="/css/bespoke.css" />
+    <style>
+    ${css}
+    </style>
   </head>
   <body>
     <div class="bespoke-marp-osc">
@@ -36,7 +39,7 @@ export default (content) =>
         Open presenter view
       </button>
     </div>
-    ${content}
+    ${html}
     <script src="/js/bespoke.js"></script>
   </body>
 </html>`;
