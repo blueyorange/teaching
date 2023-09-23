@@ -7,11 +7,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "marp --s --inputDir ./src",
-    "build": "marp --inputDir ./src --output ./dist && exit 0"
+    "build": "node ./build/index.js && exit 0"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@marp-team/marp-core": "^3.8.1",
     "@marp-team/marpit": "^2.4.1"
   },
   "devDependencies": {

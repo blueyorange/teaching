@@ -1,27 +1,53 @@
 import { Marp } from "@marp-team/marp-core";
-import fs from "fs/promises";
+import fs from "fs";
 import path from "path";
 import template from "./template.js";
 
-passthroughCopy = ["js, css"];
+// specify source and destination directories
+const sourceDirectory = 'src';
+const targetDirectory = 'dist';
 
-// Convert Markdown slide deck into HTML and CSS
 const marp = new Marp();
-const { html, css } = marp.render("# Hello, marp-core!");
 
-// array to store folder and file names
-const entries = [];
+async function processDirectory(sourceDir, targetDir) {
+  const items = fs.readdirSync(sourceDir);
 
-async function build(directoryPath) {
-  const items = await fs.readdir(directoryPath);
-  const indexFilePath = path.join(directoryPath, "index.html");
+  for (const item of items) {
+    const sourcePath = path.join(sourceDir, item);
+    const targetPath = path.join(targetDir, item);
 
-  items.forEach(async (item) => {
-    const itemPath = path.join(directoryPath, itemName);
-    const stats = await fs.stat(itemPath);
+    if (fs.statSync(sourcePath).isDirectory()) {
+      fs.mkdirSync(targetPath, { recursive: true });
+      await processDirectory(sourcePath, targetPath);
+    } else {
+      if (path.extname(item) === ".md") {
+        // If the file has a ".md" extension, convert it to Marp Markdown and render as HTML
+        const markdownContent = fs.readFileSync(sourcePath, "utf-8");
+        const marpOptions = { html: true };
+        const { html,css } = marp.render(markdownContent, marpOptions);
 
-    if (stats.isDirectory()) {
-      entries.push("- [itemName](/)");
+        const htmlFileName = path.basename(item, ".md") + ".html";
+        const htmlTargetPath = path.join(targetDir, htmlFileName);
+
+        // You may need to replace this step with the actual rendering of the HTML
+        // Here, we assume you have a function or library to convert markdown to HTML
+        const renderedHtml = template({html, css});
+
+        fs.writeFileSync(htmlTargetPath, renderedHtml);
+      } else {
+        // For non-.md files, simply copy them to the target directory
+        fs.copyFileSync(sourcePath, targetPath);
+      }
     }
-  });
+  }
 }
+
+function copyFilesAndConvertMd(sourceDir, targetDir) {
+  if (!fs.existsSync(targetDir)) {
+    fs.mkdirSync(targetDir, { recursive: true });
+  }
+
+  processDirectory(sourceDir, targetDir);
+}
+
+copyFilesAndConvertMd(sourceDirectory, targetDirectory);
