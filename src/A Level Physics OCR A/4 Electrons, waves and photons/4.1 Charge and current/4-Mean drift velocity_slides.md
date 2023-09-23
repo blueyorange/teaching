@@ -20,7 +20,7 @@ class: invert
 1. electrons, ions
 2. (a) $+2e$, $3.2 \times 10^{-19}$
 3. $5 \text{ mC}$
-4. $4.1 \times 10^{-9} m$
+4. $7.8 \times 10^{-7} \text{ m}^2$
 
 ---
 
@@ -116,9 +116,13 @@ _The free electron density of copper is $8.5 \times 10^{28}\text{ m}^{-3}$_
 
 ---
 
-# Summary questions!
+# Over to you
+
+Please answer the summary questions on page 8.4 of your textbook.
 
 ## [exam question q.34](https://pmt.physicsandmathstutor.com/download/Physics/A-level/Topic-Qs/OCR-A/4-Electrons-Waves-Photons/4.1-4.3-Electricity/Set-N/4.1%20Charge%20and%20Current%20QP.pdf)
+
+Extension: Derive the mean drift velocity formula (if you struggle, check out the derivation in section 8.4).
 
 ---
 
@@ -136,17 +140,6 @@ The number density of charge carriers in material X is about $10^{28}\text{m}^{-
 | B   | insulator     | conductor     |
 | C   | insulator     | semiconductor |
 | D   | semiconductor | conductor     |
-
----
-
-1. The number density of charge carriers in material X is about $10^{28}\text{ m}^{-3}$. The number density of charge carriers in material Y is about $10^{5}\text{ m}^{−3}$. Which row of the table correctly classifies both materials?
-
-|       | Material X    | Material Y    |
-| ----- | ------------- | ------------- |
-| **A** | conductor     | insulator     |
-| B     | insulator     | conductor     |
-| C     | insulator     | semiconductor |
-| D     | semiconductor | conductor     |
 
 ---
 
