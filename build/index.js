@@ -40,18 +40,14 @@ const targetBaseDirectory = marpOptions.destinationDirectory;
 // copy and render files
 async function processDirectory(sourceDir, targetDir) {
   const items = fs.readdirSync(sourceDir);
-  const currentDirName = path.relative(
-    targetBaseDirectory,
-    path.basename(targetDir)
-  );
-  let indexMarkdown = `<!-- theme: ${marpOptions.indexFileTheme} -->\n# [${currentDirName}](${currentDirName})\n\n`;
+  const currentDirName = path.basename(targetDir);
+  let indexMarkdown = `<!-- theme: ${marpOptions.indexFileTheme} -->\n# [..](../)/${currentDirName}\n\n`;
 
   // cycle through files in current directory
   for (const item of items) {
     const sourcePath = path.join(sourceDir, item);
     const title = path.basename(item, ".md");
     const slug = slugify(item);
-    console.log(slug);
     const targetPath = path.join(targetDir, slug);
     const targetURL = "/" + path.relative(targetBaseDirectory, targetPath);
 

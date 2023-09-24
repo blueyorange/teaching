@@ -87,7 +87,7 @@ section.questions > ul > li > ul {
   list-style-type: lower-alpha;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 section.multi-choice > ul {

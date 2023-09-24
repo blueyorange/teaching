@@ -24,6 +24,10 @@ style: |
   }
 ---
 
+![](./images/iphone-15-128gb-blue-desktop-detail-2-WebP-Format-488.webp)
+
+---
+
 <!-- _class: three-column -->
 
 # 11P4 Room 7
