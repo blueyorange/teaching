@@ -1,5 +1,6 @@
 allowLocalFiles: true
 author: Russell Johnson
+inlineSvg: true
 bespoke:
   osc: true
   transition: true
@@ -7,4 +8,4 @@ html: true
 image: false
 images: false
 pdf: false
-themeSet: themes
+themeDir: themes

@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: gaia
+theme: darumadrop
 style: |
   ul {
     display: grid;
