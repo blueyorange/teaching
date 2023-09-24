@@ -2,13 +2,20 @@ import { Marp } from "@marp-team/marp-core";
 import fs from "fs";
 import path from "path";
 import template from "./template.js";
-import chalk from 'chalk';
+import chalk from "chalk";
+import { Element } from "@marp-team/marpit";
 
 // specify source and destination directories
-const sourceDirectory = 'test';
-const targetDirectory = 'dist';
+const sourceDirectory = "test";
+const targetDirectory = "dist";
 
-const marpOptions = { html: true };
+const marpOptions = {
+  inlineSVG: true,
+  markdown: {
+    html: true,
+  },
+  container: [new Element("div", { id: "p" })],
+};
 const marp = new Marp(marpOptions);
 
 async function processDirectory(sourceDir, targetDir) {

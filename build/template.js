@@ -19,13 +19,7 @@ export default ({ html, css, comments }) =>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
-    <link rel="stylesheet" href="/css/bespoke.css" />
-    <style>
-    ${css}
-    </style>
-    <style>
-    ${bespokeCss}
-    </style>
+    <style>${bespokeCss}</style>
   </head>
   <body>
     <div class="bespoke-marp-osc">
@@ -48,17 +42,11 @@ export default ({ html, css, comments }) =>
         Open presenter view
       </button>
     </div>
-    <div id="p">
+    <style>
+    ${css}
+    </style>
     ${html}
-    ${comments
-      .map((slideComments, index) => {
-        return `<div class="bespoke-marp-note" data-index="${index}" tabindex="0">
-  ${slideComments.map((comment) => `<p>${comment}</p>`).join("")}"`;
-      })
-      .join("")}
-      </div>
-          <script>
-    ${bespokeJs}
-    </script>
+    <script>${bespokeJs}</script>
   </body>
-</html>`;
+</html>
+`;
