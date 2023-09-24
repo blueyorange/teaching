@@ -1,4 +1,10 @@
-export default ({html, css}) =>
+import fs from "fs";
+const bespokeJs = fs.readFileSync("./build/bespoke.js", { encoding: "utf-8" });
+const bespokeCss = fs.readFileSync("./build/bespoke.css", {
+  encoding: "utf-8",
+});
+
+export default ({ html, css, comments }) =>
   `<!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -16,6 +22,9 @@ export default ({html, css}) =>
     <link rel="stylesheet" href="/css/bespoke.css" />
     <style>
     ${css}
+    </style>
+    <style>
+    ${bespokeCss}
     </style>
   </head>
   <body>
@@ -39,7 +48,17 @@ export default ({html, css}) =>
         Open presenter view
       </button>
     </div>
+    <div id="p">
     ${html}
-    <script src="/js/bespoke.js"></script>
+    ${comments
+      .map((slideComments, index) => {
+        return `<div class="bespoke-marp-note" data-index="${index}" tabindex="0">
+  ${slideComments.map((comment) => `<p>${comment}</p>`).join("")}"`;
+      })
+      .join("")}
+      </div>
+          <script>
+    ${bespokeJs}
+    </script>
   </body>
 </html>`;
