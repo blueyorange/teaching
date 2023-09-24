@@ -5,6 +5,12 @@ import template from "./template.js";
 import chalk from "chalk";
 import { Element } from "@marp-team/marpit";
 
+// chalk messages
+const successMessage = (message) =>
+  console.log(chalk.bgGreen.gray(" OK ") + " " + message);
+const errorMessage = (message) =>
+  console.log(chalk.bgRed.gray("   ERROR    ") + " " + message);
+
 // specify source and destination directories
 const sourceDirectory = "test";
 const targetDirectory = "dist";
@@ -35,13 +41,26 @@ async function processDirectory(sourceDir, targetDir) {
 
         const htmlFileName = path.basename(item, ".md") + ".html";
         const htmlTargetPath = path.join(targetDir, htmlFileName);
-
-        const renderedHtml = template(marp.render(markdownContent));
-
-        fs.writeFileSync(htmlTargetPath, renderedHtml);
+        let renderedHtml;
+        try {
+          renderedHtml = template(marp.render(markdownContent));
+        } catch (error) {
+          console.log(chalkError("   ERROR  ") + error);
+        }
+        try {
+          fs.writeFileSync(htmlTargetPath, renderedHtml);
+          successMessage(htmlTargetPath);
+        } catch (error) {
+          errorMessage(` Couldn't write to file ${htmlTargetPath}, ${error}`);
+        }
       } else {
         // For non-.md files, simply copy them to the target directory
-        fs.copyFileSync(sourcePath, targetPath);
+        try {
+          fs.copyFileSync(sourcePath, targetPath);
+          successMessage(targetPath);
+        } catch (error) {
+          errorMessage(targetPath);
+        }
       }
     }
   }
