@@ -15,6 +15,7 @@ const errorMessage = (message) =>
 const sourceDirectory = "test";
 const targetDirectory = "dist";
 
+// Set options for marp
 const marpOptions = {
   inlineSVG: true,
   markdown: {
@@ -22,17 +23,21 @@ const marpOptions = {
   },
   container: [new Element("div", { id: "p" })],
 };
+// create marp instance
 const marp = new Marp(marpOptions);
 
+// copy and render files
 async function processDirectory(sourceDir, targetDir) {
   const items = fs.readdirSync(sourceDir);
 
+  // cycle through files in current directory
   for (const item of items) {
     const sourcePath = path.join(sourceDir, item);
     const targetPath = path.join(targetDir, item);
 
     if (fs.statSync(sourcePath).isDirectory()) {
       fs.mkdirSync(targetPath, { recursive: true });
+      // recursively apply function to all subdirectories
       await processDirectory(sourcePath, targetPath);
     } else {
       if (path.extname(item) === ".md") {
