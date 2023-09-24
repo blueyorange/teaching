@@ -9,3 +9,6 @@ image: false
 images: false
 pdf: false
 themeDir: themes
+indexFileTheme: gaia
+sourceDirectory: src
+destinationDirectory: dist

@@ -6,6 +6,7 @@ import chalk from "chalk";
 import { Element } from "@marp-team/marpit";
 import YAML from "yaml";
 import readCssFiles from "./helpers/readCssFiles.js";
+import slugify from "slugify";
 
 // Copies all files from source to destination directories
 // Except markdown files which are converted to slides using marp
@@ -33,48 +34,49 @@ const errorMessage = (message) =>
   console.log(chalk.bgRed.gray("   ERROR    ") + " " + message);
 
 // specify source and destination directories
-const sourceDirectory = "test";
-const targetDirectory = "dist";
-
-// Set options for marp
-// const marpOptions = {
-//   inlineSVG: true,
-//   markdown: {
-//     html: true,
-//   },
-//   container: [new Element("div", { id: "p" })],
-// };
-// create marp instance
+const sourceBaseDirectory = marpOptions.sourceDirectory;
+const targetBaseDirectory = marpOptions.destinationDirectory;
 
 // copy and render files
 async function processDirectory(sourceDir, targetDir) {
   const items = fs.readdirSync(sourceDir);
+  const currentDirName = path.relative(
+    targetBaseDirectory,
+    path.basename(targetDir)
+  );
+  let indexMarkdown = `<!-- theme: ${marpOptions.indexFileTheme} -->\n# [${currentDirName}](${currentDirName})\n\n`;
 
   // cycle through files in current directory
   for (const item of items) {
     const sourcePath = path.join(sourceDir, item);
-    const targetPath = path.join(targetDir, item);
+    const title = path.basename(item, ".md");
+    const slug = slugify(item);
+    console.log(slug);
+    const targetPath = path.join(targetDir, slug);
+    const targetURL = "/" + path.relative(targetBaseDirectory, targetPath);
 
     if (fs.statSync(sourcePath).isDirectory()) {
       fs.mkdirSync(targetPath, { recursive: true });
+      indexMarkdown += `- [${title}](${targetURL})\n`;
       // recursively apply function to all subdirectories
       await processDirectory(sourcePath, targetPath);
     } else {
       if (path.extname(item) === ".md") {
         // If the file has a ".md" extension, convert it to Marp Markdown and render as HTML
         const markdownContent = fs.readFileSync(sourcePath, "utf-8");
-
-        const htmlFileName = path.basename(item, ".md") + ".html";
-        const htmlTargetPath = path.join(targetDir, htmlFileName);
+        const title = path.basename(targetPath, ".md");
+        const htmlTargetPath = targetPath + ".html";
+        const htmlURL = targetURL + ".html";
         let renderedHtml;
         try {
           renderedHtml = render(markdownContent);
         } catch (error) {
-          console.log(chalkError("   ERROR  ") + error);
+          errorMessage("error");
         }
         try {
           fs.writeFileSync(htmlTargetPath, renderedHtml);
           successMessage(htmlTargetPath);
+          indexMarkdown += `- [${title}](${htmlURL})\n`;
         } catch (error) {
           errorMessage(` Couldn't write to file ${htmlTargetPath}, ${error}`);
         }
@@ -89,6 +91,9 @@ async function processDirectory(sourceDir, targetDir) {
       }
     }
   }
+  const indexHtml = render(indexMarkdown);
+  const indexFilePath = path.join(targetDir, "index.html");
+  fs.writeFileSync(indexFilePath, indexHtml, { encoding: "utf-8" });
 }
 
 function copyFilesAndConvertMd(sourceDir, targetDir) {
@@ -99,4 +104,4 @@ function copyFilesAndConvertMd(sourceDir, targetDir) {
   processDirectory(sourceDir, targetDir);
 }
 
-copyFilesAndConvertMd(sourceDirectory, targetDirectory);
+copyFilesAndConvertMd(sourceBaseDirectory, targetBaseDirectory);
