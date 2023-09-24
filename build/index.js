@@ -4,8 +4,29 @@ import path from "path";
 import template from "./template.js";
 import chalk from "chalk";
 import { Element } from "@marp-team/marpit";
+import YAML from "yaml";
+import readCssFiles from "./helpers/readCssFiles.js";
 
-// chalk messages
+// Copies all files from source to destination directories
+// Except markdown files which are converted to slides using marp
+
+// read marp config file
+const marpOptions = YAML.parse(
+  fs.readFileSync(".marprc.yml", { encoding: "utf-8" })
+);
+// must be set for bespoke to work properly
+marpOptions.container = [new Element("div", { id: "p" })];
+// initialise marp
+const marp = new Marp(marpOptions);
+// add themes to marp instance
+readCssFiles(marpOptions.themeDir).forEach((themeCss) => {
+  marp.themeSet.add(themeCss.content);
+});
+
+// render function
+const render = (markdown) => template(marp.render(markdown));
+
+// console messages
 const successMessage = (message) =>
   console.log(chalk.bgGreen.gray(" OK ") + " " + message);
 const errorMessage = (message) =>
@@ -16,15 +37,14 @@ const sourceDirectory = "test";
 const targetDirectory = "dist";
 
 // Set options for marp
-const marpOptions = {
-  inlineSVG: true,
-  markdown: {
-    html: true,
-  },
-  container: [new Element("div", { id: "p" })],
-};
+// const marpOptions = {
+//   inlineSVG: true,
+//   markdown: {
+//     html: true,
+//   },
+//   container: [new Element("div", { id: "p" })],
+// };
 // create marp instance
-const marp = new Marp(marpOptions);
 
 // copy and render files
 async function processDirectory(sourceDir, targetDir) {
@@ -48,7 +68,7 @@ async function processDirectory(sourceDir, targetDir) {
         const htmlTargetPath = path.join(targetDir, htmlFileName);
         let renderedHtml;
         try {
-          renderedHtml = template(marp.render(markdownContent));
+          renderedHtml = render(markdownContent);
         } catch (error) {
           console.log(chalkError("   ERROR  ") + error);
         }
