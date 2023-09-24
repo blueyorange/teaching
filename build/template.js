@@ -46,6 +46,13 @@ export default ({ html, css, comments }) =>
     ${css}
     </style>
     ${html}
+    ${comments
+      .map((slideComments, index) => {
+        return `<div class="bespoke-marp-note" data-index="${index}" tabindex="0">
+          ${slideComments.map((comment) => `<p>${comment}</p>`).join("")}
+          </div>`;
+      })
+      .join("")}
     <script>${bespokeJs}</script>
   </body>
 </html>
