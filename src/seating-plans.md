@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: darumadrop
+theme: gaia
 style: |
   ul {
     display: grid;
@@ -22,10 +22,6 @@ style: |
     padding: 10px;
     text-align: center;
   }
----
-
-![](./images/iphone-15-128gb-blue-desktop-detail-2-WebP-Format-488.webp)
-
 ---
 
 <!-- _class: three-column -->

@@ -8,7 +8,7 @@ html: true
 image: false
 images: false
 pdf: false
-themeDir: themes
+themeSet: themes
 indexFileTheme: gaia
 sourceDirectory: src
 destinationDirectory: dist
