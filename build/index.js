@@ -11,6 +11,8 @@ import slugify from "slugify";
 // Copies all files from source to destination directories
 // Except markdown files which are converted to slides using marp
 
+const doNotIndex = ["404"];
+
 // read marp config file
 const marpOptions = YAML.parse(
   fs.readFileSync(".marprc.yml", { encoding: "utf-8" })
@@ -72,7 +74,9 @@ async function processDirectory(sourceDir, targetDir) {
         try {
           fs.writeFileSync(htmlTargetPath, renderedHtml);
           successMessage(htmlTargetPath);
-          indexMarkdown += `- [${title}](${htmlURL})\n`;
+          if (!doNotIndex.includes(title)) {
+            indexMarkdown += `- [${title}](${htmlURL})\n`;
+          }
         } catch (error) {
           errorMessage(` Couldn't write to file ${htmlTargetPath}, ${error}`);
         }
