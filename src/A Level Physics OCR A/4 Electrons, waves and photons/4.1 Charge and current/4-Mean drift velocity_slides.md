@@ -132,7 +132,9 @@ get your :memo:
 
 ---
 
-The number density of charge carriers in material X is about $10^{28}\text{m}^{-3}$. The number density of charge carriers in material Y is about 105m−3. Which row of the table correctly classifies both materials?
+<!-- class: multi-choice -->
+
+The number density of charge carriers in material X is about $10^{28}\text{ m}^{-3}$. The number density of charge carriers in material Y is about $10^5\text{ m}^{−3}$. Which row of the table correctly classifies both materials?
 
 |     | Material X    | Material Y    |
 | --- | ------------- | ------------- |
@@ -144,7 +146,8 @@ The number density of charge carriers in material X is about $10^{28}\text{m}^{-
 ---
 
 2. Which sequence shows the materials arranged in the order of increasing number density of charge carriers?
-   increasing number density :arrow_right:
+
+**increasing number density :arrow_right:**
 
 A conductor, insulator, semiconductor
 B conductor, semiconductor, insulator
@@ -156,10 +159,10 @@ D semiconductor, insulator, conductor
 3. The electric charge on particles is quantised and a multiple of the elementary charge.
    Which charge on a particle is possible?
 
-A $1.0 × 10^{–19}$ C
-B $4.0 × 10^{–19}$ C
-C $8.0 × 10^{–19}$ C
-D $8.8 × 10^{–19}$ C
+- $1.0 × 10^{–19}$ C
+- $4.0 × 10^{–19}$ C
+- $8.0 × 10^{–19}$ C
+- $8.8 × 10^{–19}$ C
 
 ---
 
@@ -167,7 +170,7 @@ D $8.8 × 10^{–19}$ C
 
 Which statement is correct about these electrons?
 
-A. The electrons drift towards the negative end of the cell.
-B. The electrons have random speeds because of collisions with many electrons.
-C. The electrons travel through the copper at the speed of light.
-D. The electrons collide with vibrating copper ions.
+- The electrons drift towards the negative end of the cell.
+- The electrons have random speeds because of collisions with many electrons.
+- The electrons travel through the copper at the speed of light.
+- The electrons collide with vibrating copper ions.
