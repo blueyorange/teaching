@@ -47,7 +47,7 @@ async function processDirectory(sourceDir, targetDir) {
   for (const item of items) {
     const sourcePath = path.join(sourceDir, item);
     const title = path.basename(item, ".md");
-    const slug = slugify(item);
+    const slug = slugify(title);
     const targetPath = path.join(targetDir, slug);
     const targetURL = "/" + path.relative(targetBaseDirectory, targetPath);
 
