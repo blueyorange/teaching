@@ -147,6 +147,8 @@ Investigate this statement.
 
 ---
 
+---
+
 <!-- class: multi-choice -->
 
 ## The highest common factor of 16 and 20 is...
