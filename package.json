@@ -5,9 +5,9 @@
   "start": "marp --s --allow-local-files",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "marp --s --inputDir ./src",
-    "build": "node ./build/index.js && exit 0"
+    "build": "node ./build/index.js && exit 0",
+    "test": "marp -c ./marp.config.mjs ./test/test.md"
   },
   "author": "",
   "license": "ISC",

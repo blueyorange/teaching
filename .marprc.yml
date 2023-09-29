@@ -10,5 +10,5 @@ images: false
 pdf: false
 themeSet: themes
 indexFileTheme: gaia
-sourceDirectory: test
+sourceDirectory: src
 destinationDirectory: dist
