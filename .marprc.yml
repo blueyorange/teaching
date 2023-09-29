@@ -11,5 +11,5 @@ pdf: false
 math: mathjax
 themeSet: themes
 indexFileTheme: gaia
-sourceDirectory: test
+sourceDirectory: src
 destinationDirectory: dist
