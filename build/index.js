@@ -7,8 +7,6 @@ import { Element } from "@marp-team/marpit";
 import YAML from "yaml";
 import readCssFiles from "./helpers/readCssFiles.js";
 import slugify from "slugify";
-import katex from "katex";
-import "katex/contrib/mhchem";
 
 // Copies all files from source to destination directories
 // Except markdown files which are converted to slides using marp
@@ -21,7 +19,6 @@ const marpOptions = YAML.parse(
 );
 // must be set for bespoke to work properly
 marpOptions.container = [new Element("div", { id: "p" })];
-marpOptions.math = katex;
 // initialise marp
 const marp = new Marp(marpOptions);
 // add themes to marp instance
