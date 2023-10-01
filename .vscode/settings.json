@@ -1,5 +1,6 @@
 {
-  "markdown.preview.fontFamily": "'Tilt Warp',-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+  "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+  "markdown.marp.enableHtml": true,
   "liveServer.settings.port": 8090,
   "liveServer.settings.root": "/dist"
 }

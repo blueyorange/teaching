@@ -20,6 +20,7 @@ export default ({ html, css, comments }) =>
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
     <style>${bespokeCss}</style>
+  <script src="/js/todays-date.js"></script>
   </head>
   <body>
     <div class="bespoke-marp-osc">
