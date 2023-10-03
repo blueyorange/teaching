@@ -124,3 +124,37 @@ Calculate the uncertainty in a **single** period.
 # Further Questions
 
 Try the examples on Isaac Physics.
+
+---
+
+# Appendix
+
+### Mathematical reasoning for rules
+
+1. When adding or subtracting quantities, we always add the absolute uncertainties.
+
+Consider two measurements $a$ and $b$ with uncertainties $\delta a$ and $\delta b$.
+
+$$
+(a\pm \delta a) + (b\pm\delta b) = (a + b) \pm (\delta a + \delta b)\\
+$$
+
+$(a+b)$ is the sum of the measured values. $(\delta a + \delta b)$ is the sum of the absolute uncertainties.
+
+---
+
+2. When multiplying _or_ dividing quantities, we always **add** the **percentage** uncertainties
+
+$$
+(a\pm \delta a) \times (b\pm\delta b) = ab + a\delta b + b\delta a + \delta a \delta b
+$$
+
+$ab$ is the product of the two measured values. So the uncertainty is $a\delta b + b\delta a + \delta a \delta b$. Dividing by ab will give the percentage uncertainty.
+
+This gives
+
+$$
+\frac{a\delta b + b\delta a + \delta a \delta b}{ab}=\frac{\delta b}{b} +\frac{\delta b}{a}+ \frac{\delta a \delta b}{ab}
+$$
+
+The last term is very small so we ignore, and the first two are the sum of the percentage uncertainties!
