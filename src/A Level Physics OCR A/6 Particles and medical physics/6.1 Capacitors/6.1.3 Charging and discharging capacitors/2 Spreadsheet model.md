@@ -12,7 +12,7 @@ $$\frac{Q}{Q_0} = \frac{I}{I_0} = \frac{V}{V_0} = e^{-\frac{t}{CR}}$$
 A 470 &mu;F capacitor charged to 6.0V discharges through a 100 k&Omega; resistor. Calculate:
 
 1. The time constant CR.
-2. The time taken to discharge to 2.2s.
+2. The time taken to discharge to 2.2V.
 3. The voltage after 1m34s.
 
 ---
