@@ -1,6 +1,7 @@
 ---
 marp: true
 theme: gaia
+math: mathjax
 style: |
   section.resistor-series ul {
     list-style-type: none;
@@ -34,7 +35,7 @@ State the absolute uncertainty and calculate the relative (percentage) uncertain
 1. A metre ruler is used to make a measurement of 1.51 m.
    _1.51 &plusmn; 0.01 m &plusmn; 0.7%_
 2. A micrometer is used to make a measurement of 2.43 mm.
-   _1.51 &plusmn; 0.01 mm &plusmn; 0.4%_
+   _2.43 &plusmn; 0.01 mm &plusmn; 0.4%_
 3. ![w:300px](./images/ammeter_example.jpeg) _0.5 &plusmn; 0.1A &plusmn; 20%_
 
 ---
@@ -175,3 +176,20 @@ $$
 $$
 
 The last term is very small so we ignore, and the first two are the sum of the percentage uncertainties!
+
+---
+
+# Measurement circus
+
+1. 1.5 V cell, unmarked resistor, ammeter and voltmeter set up as circuit to measure resistance
+2. micrometer and short length of thick wire
+3. vernier calliper and short length of hollow pipe
+4. ruler and short length of thick wire with kinks
+5. approx 0.50 m pendulum set up with stopclock
+6. 500 sheets of A4 paper and ruler to measure thickness of sheet of paper
+
+---
+
+# Measurement circus 1
+
+Set up a circuit to measure the resistance.
