@@ -41,7 +41,8 @@ State the absolute uncertainty and calculate the relative (percentage) uncertain
 
 # Learning Objectives
 
-- calculate the uncertainty in a quantity which relies on one or more uncertain measurements
+- estimate the uncertainty in a quantity which relies on one or more uncertain measurements
+- estimate the uncertainty in repeat measurements which are subject to random error
 
 ---
 
@@ -54,6 +55,18 @@ For example:
 - we measure **perimeter** by measuring side lengths of a rectangle
 - we measure **resistance** by measuring potential difference and current
 - we measure **acceleration** by measuring distance and time taken of a falling object
+
+---
+
+# Repeat measurements and random error
+
+- Many measurements are repeated as they are subject to **random error**.
+- Repeating and taking an average improves **accuracy**.
+- To estimate the uncertainty in repeated measurements, use **half the range**, eg (28.23-28.17)/2 in the example below.
+
+| $20T_1$ / s | $20T_2$ / s | $20T_3$ / s |
+| ----------- | ----------- | ----------- |
+| 28.17       | 28.23       | 28.21       |
 
 ---
 
@@ -115,9 +128,13 @@ Use the equation $s=\frac{1}{2}gt^2$
 
 # Example 6
 
-A pendulum is timed to take 28.22 seconds for 20 swings.
+| $20T_1$ / s | $20T_2$ / s | $20T_3$ / s |
+| ----------- | ----------- | ----------- |
+| 28.17       | 28.23       | 28.21       |
 
-Calculate the uncertainty in a **single** period.
+The above table shows three measurements of 20 swings of a pendulum.
+
+Calculate the time for one swing, and the percentage uncertainty in this measurement.
 
 ---
 
@@ -146,7 +163,7 @@ $(a+b)$ is the sum of the measured values. $(\delta a + \delta b)$ is the sum of
 2. When multiplying _or_ dividing quantities, we always **add** the **percentage** uncertainties
 
 $$
-(a\pm \delta a) \times (b\pm\delta b) = ab + a\delta b + b\delta a + \delta a \delta b
+(a\pm \delta a) \times (b\pm\delta b) = ab \pm a\delta b \pm b\delta a \pm \delta a \delta b
 $$
 
 $ab$ is the product of the two measured values. So the uncertainty is $a\delta b + b\delta a + \delta a \delta b$. Dividing by ab will give the percentage uncertainty.
