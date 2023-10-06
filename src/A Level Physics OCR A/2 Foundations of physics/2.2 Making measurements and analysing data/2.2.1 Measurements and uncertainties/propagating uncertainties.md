@@ -16,6 +16,26 @@ style: |
     border-bottom: 5px solid black;
     height: 10px;
   }
+  section.word-grid ul {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style-type: none;
+  }
+---
+
+<!-- _class: word-grid -->
+
+# How many do you know?
+
+- resolution
+- precision
+- accuracy
+- systematic error
+- random error
+- uncertainty
+- error
+- zero error
+
 ---
 
 # :pen: Do It Now :straight_ruler:
@@ -188,8 +208,88 @@ The last term is very small so we ignore, and the first two are the sum of the p
 5. approx 0.50 m pendulum set up with stopclock
 6. 500 sheets of A4 paper and ruler to measure thickness of sheet of paper
 
+Show your working for each example.
+
 ---
 
-# Measurement circus 1
+# 1. Resistance
 
-Set up a circuit to measure the resistance.
+1. Set up a circuit to measure the resistance.
+2. Record the p.d. and current, and the uncertainty in both.
+3. Calculate the resistance and the % uncertainty in that value.
+
+V = \_\_\_\_\_ &plusmn; \_\_\_\_\_ V &plusmn; \_\_\_\_\_ %
+I = \_\_\_\_\_ &plusmn; \_\_\_\_\_ A &plusmn; \_\_\_\_\_ %
+
+so R = \_\_\_\_\_ &plusmn; \_\_\_\_\_ &Omega; &plusmn; \_\_\_\_\_ %
+
+---
+
+# 2. Micrometer
+
+![bg right:35% fit](https://www.miniphysics.com/wp-content/uploads/2014/11/micrometer-0.jpg)
+
+- Use the micrometer to measure the **diameter** of the wire.
+- Measure in three places and take and average.
+
+| $d_1$ / mm | $d_2$ / mm | $d_3$ / mm | $\bar{d}$ / mm |
+| ---------- | ---------- | ---------- | -------------- |
+| &#160;     |            |            |                |
+
+so d = \_\_\_\_\_ &plusmn; \_\_\_\_\_ mm &plusmn; \_\_\_\_\_ %
+
+---
+
+# 2. Micrometer (continued)
+
+Can you find the cross-sectional area A, with uncertainty?
+
+so A = \_\_\_\_\_\_\_\_\_\_ &plusmn; \_\_\_\_\_ mm&sup2; &plusmn; \_\_\_\_\_ %
+
+---
+
+# 3. Vernier calliper
+
+1. Use the vernier calliper to measure the internal diameter x of the pipe.
+2. Measure the external diameter y.
+3. Calculate the thickness t = y-x.
+
+x = \_\_\_\_\_ &plusmn; \_\_\_\_\_ mm &plusmn;
+y = \_\_\_\_\_ &plusmn; \_\_\_\_\_ mm &plusmn;
+t = \_\_\_\_\_ &plusmn; \_\_\_\_\_ mm &plusmn;
+
+---
+
+# 4. Ruler
+
+Use the ruler to find the length of the wire.
+
+Estimate the uncertainty in your measurement.
+
+so l = \_\_\_\_\_\_\_\_\_\_ &plusmn; \_\_\_\_\_ mm &sup2; &plusmn; \_\_\_\_\_ %
+
+---
+
+# 5. Pendulum
+
+Measure 20 swings of the pendulum 3 times. Find the average. Divide by 20 to find the average period.
+
+| $20T_1$ / s | $20T_2$ / s | $20T_3$ / s | $\overline{20T}$ / s | $\overline{T}$ / s |
+| ----------- | ----------- | ----------- | -------------------- | ------------------ |
+| &#160;      |             |             |
+
+Calculate the absolute and percentage uncertainties.
+
+so T = \_\_\_\_\_\_\_\_\_\_ &plusmn; \_\_\_\_\_ s &sup2; &plusmn; \_\_\_\_\_ %
+
+---
+
+# 6. Thickness of a sheet of paper
+
+Measure the thickness of 500 sheets of paper.
+
+500t = \_\_\_\_\_\_\_\_\_\_ &plusmn; \_\_\_\_\_ mm &plusmn; \_\_\_\_\_ %
+
+Calculate the thickness of one sheet.
+
+t = \_\_\_\_\_\_\_\_\_\_ &plusmn; \_\_\_\_\_ mm &plusmn; \_\_\_\_\_ %
