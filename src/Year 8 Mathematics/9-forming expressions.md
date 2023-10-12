@@ -11,14 +11,13 @@ style: |
   }
 ---
 
-# :orange_book: Do It Now!
+# :memo: Do It Now!
 
-1. Simplify $((y^2)^3)^5$
-2. Simplify $y^4 \times y^5$
-3. Find the prime factors of 299
-4. Find the prime factors of 782
-5. Find the LCM and HCF of 299 and 782
-6. Simplify $6a+3b-4a-5b+2a^2$
+- Make up one starter question, from the work we have done so far this term.
+- Write it on your mini-whiteboard LARGE.
+- Write the answer on the back LARGE.
+
+**indices, prime factors, algebra**
 
 ---
 
@@ -116,12 +115,12 @@ $$4(3n+1)$$
 
 ## Learning Objectives
 
-:white_check_mark: **substitute** numbers correctly into algebraic **expressions**
-:white_check_mark: form **algebraic expressions** correctly
+- :white_check_mark: **substitute** numbers correctly into algebraic **expressions**
+- :white_check_mark: form **algebraic expressions** correctly
 
 ---
 
-# Diagnostic question
+## Diagnostic question
 
 ### Form an expression for "multiply x by 3, add 1, then multiply the result by 9".
 
