@@ -1,0 +1,34 @@
+/* @theme default-worksheet */
+
+@import "default";
+
+section {
+  width: 21cm;
+  height: 29.7cm;
+  margin: auto;
+  border: 1px #d3d3d3 solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  section {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
+}
