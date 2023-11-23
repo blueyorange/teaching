@@ -1,5 +1,5 @@
 ---
-theme: scratch
+theme: default-worksheet
 marp: true
 header: <todays-date></todays-date>
 ---
