@@ -42,7 +42,7 @@ blockquote {
 }
 
 blockquote::before {
-  content: "Definition";
+  content: "Learn!";
   display: inline-block;
   padding: 0;
   margin: 0;
