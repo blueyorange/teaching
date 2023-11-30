@@ -79,3 +79,31 @@ section.questions > ul > li > ul {
 p {
   margin: 0 0 0.3rem 0;
 }
+
+section.two-pane {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "header header"
+    "left-pane right-pane";
+  align-items: center;
+}
+
+section.two-pane h1 {
+  grid-column: 1 / span 2;
+}
+
+section.two-pane:nth-child(1) {
+  grid-area: left-pane;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+section.two-pane:nth-child(3) {
+  grid-area: right-pane;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
