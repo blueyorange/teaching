@@ -23,13 +23,15 @@ class WaveMotion extends LitElement {
       stroke-width: 2;
     }
     #marker-circle {
-      stroke: black;
-      stroke-width: 0;
     }
     .particle {
       stroke: black;
       stroke-width: 3;
       marker-end: url(#marker-circle);
+    }
+    .particle:nth-child(3) {
+      fill: green;
+      stroke: green;
     }
   `;
 
