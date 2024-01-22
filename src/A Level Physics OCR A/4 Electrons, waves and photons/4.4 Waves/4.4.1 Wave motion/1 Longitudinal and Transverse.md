@@ -34,6 +34,8 @@ author: R. Johnson
 
 4. the wave equation $v = f\lambda$
 
+---
+
 5. graphical representations of transverse and longitudinal waves
 
 6. reflection, refraction, polarisation, and diffraction of all waves; techniques and procedures used to demonstrate wave effects using a ripple tank ; techniques and procedures used to observe polarising effects using microwaves and light
