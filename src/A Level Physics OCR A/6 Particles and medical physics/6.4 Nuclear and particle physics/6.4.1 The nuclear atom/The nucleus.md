@@ -11,7 +11,9 @@ style: |
 ---
 
 # A Level Physics OCR A
+
 ## 6 Particles and medical physics
+
 ### 6.4 Nuclear and particle physics
 
 ---
@@ -25,6 +27,7 @@ $r_0 = 1.2 \text{ fm}$
 ---
 
 ![bg left:30%](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg/1280px-Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg)
+
 ## 6.4.1 The nucleus
 
 - proton number; nucleon number; isotopes; notation $^A_ZX$
@@ -47,5 +50,4 @@ A real Airy disk created by passing a red laser beam through a 90-micrometre pin
 
 ---
 
-![bg](https://i.stack.imgur.com/3u1dR.png)
-
+![bg fit](https://i.stack.imgur.com/3u1dR.png)
