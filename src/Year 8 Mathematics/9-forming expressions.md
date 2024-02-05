@@ -30,7 +30,7 @@ style: |
 
 ## $y = 2x$
 
-## $x = 5$ 
+## $x = 5$
 
 ## :memo: What is $y$?
 
@@ -43,11 +43,13 @@ style: |
 ## :memo: What is a?
 
 ---
+
 ## $d = 3c+6$
 
 ## $c = 7$
 
 ## :memo: What is d?
+
 ---
 
 ## $p = 2(q+3)$
@@ -76,11 +78,13 @@ style: |
 6. **S**ubtraction
 
 ---
+
 # Example
+
 ### Write an expression for
 
 ### :memo: multiply n by 3, add 1, then multiply by 2
- 
+
 $$4(3n+1)$$
 
 ---

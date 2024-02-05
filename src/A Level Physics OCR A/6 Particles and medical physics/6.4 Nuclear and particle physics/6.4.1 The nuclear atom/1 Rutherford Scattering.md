@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: default
+theme: scratch
 math: mathjax
 paginate: true
 author: R. Johnson
