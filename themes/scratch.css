@@ -115,11 +115,13 @@ table {
   width: auto;
   border: none;
   width: auto;
+  font-size: 0.83em;
 }
 
 th,
 td {
-  padding: 0.5em 0.7em;
+  padding: 0.3em 0.4em;
+  text-align: center;
 }
 
 th {

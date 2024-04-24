@@ -24,6 +24,7 @@ export default ({ html, css, comments }) =>
         </style>
         <script src="/js/todays-date.js"></script>
         <script src="/js/wave-motion.js"></script>
+        <script src="/js/wave-harmonics.js"></script>
       </head>
       <body>
         <div class="bespoke-marp-osc">

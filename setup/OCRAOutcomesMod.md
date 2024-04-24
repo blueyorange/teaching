@@ -148,17 +148,13 @@
 #### 3.1.1 Kinematics
 
 1. displacement, instantaneous speed, average speed, velocity and acceleration
-
 2. graphical representations of displacement, speed, velocity and acceleration
-
 3. Displacement–time graphs; velocity is gradient
-
 4. Velocity–time graphs; acceleration is gradient; displacement is area under graph.
 
 #### 3.1.2 Linear motion
 
 1. i. the equations of motion for constant acceleration in a straight line, including motion of bodies falling in a uniform gravitational field without air resistance. ii. techniques and procedures used to investigate the motion and collisions of objects
-
 2. acceleration g of free fall; techniques and procedures used to determine the acceleration of free fall using trapdoor and electromagnet arrangement or light gates and a timer
 
 3. reaction time and thinking distance; braking distance and stopping distance for a vehicle.
